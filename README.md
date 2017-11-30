@@ -7,3 +7,4 @@ glide up
 go run server.go
 ```
 
+Visit <http://localhost:1323/heroes>
