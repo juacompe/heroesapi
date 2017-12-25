@@ -3,6 +3,7 @@ package main
 import (
 	"net/http"
 
+	"github.com/juacompe/heroesapi/hero"
 	"github.com/labstack/echo"
 )
 
@@ -16,14 +17,9 @@ func main() {
 	e.Logger.Fatal(e.Start(":1323"))
 }
 
-type Hero struct {
-	ID   int    `json:"id" form:"id"`
-	Name string `json:"name" form:"name"`
-}
-
 func listHeroes(c echo.Context) error {
-	hs := []Hero{
-		Hero{11, "Mr. Nice"},
+	hs := []hero.Hero{
+		{11, "Mr. Nice"},
 		{12, "Narco"},
 		{13, "Bombasto"},
 		{14, "Celeritas"},
