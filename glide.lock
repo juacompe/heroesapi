@@ -1,8 +1,8 @@
 hash: 8a7454a699273a3ede49d00ef06bd3d55fce27fc58c251a1977edc0676d69153
-updated: 2017-11-30T18:22:50.212892001+07:00
+updated: 2017-12-25T10:24:53.781226248+07:00
 imports:
 - name: github.com/labstack/echo
-  version: 0473c51f1dbd83487effce00702571d19033a6e5
+  version: b338075a0fc6e1a0683dbf03d09b4957a289e26f
   subpackages:
   - '...'
 - name: github.com/labstack/gommon
@@ -19,12 +19,12 @@ imports:
 - name: github.com/valyala/fasttemplate
   version: dcecefd839c4193db0d35b88ec65b4c12d360ab0
 - name: golang.org/x/crypto
-  version: 94eea52f7b742c7cbe0b03b22f0c4c8631ece122
+  version: d585fd2cc9195196078f516b69daff6744ef5e84
   subpackages:
   - acme
   - acme/autocert
 - name: golang.org/x/sys
-  version: 13fcbd661c8ececa8807a29b48407d674b1d8ed8
+  version: 83801418e1b59fb1880e363299581ee543af32ca
   subpackages:
   - unix
 testImports: []
